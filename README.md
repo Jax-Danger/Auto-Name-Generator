@@ -13,7 +13,7 @@ To configure the script to your liking, you can use the Config file located in t
 Inside the config.lua, you will be able to edit the list of the random first names and last names, as well ass, the city hall.
 
 
-#LICENSE
+## LICENSE
 
 If you wish to use this script, please, do NOT change the author or description in the fxmanifest.lua file.
 If you fork or change the script, open a Pull Request for a change, and let me update it. 
