@@ -15,10 +15,11 @@ Inside the config.lua, you will be able to edit the list of the random first nam
 
 ## Support
 Support is available for all my scripts in my discord:
-discord.gg/GZVTe2WNeF
+https://discord.gg/GZVTe2WNeF
 
 If you want to get Framework related support, join the Main Power discord:
 https://discord.gg/bJGNV3FJac
+
 
 ## LICENSE
 * Do not edit the fxmanifest author or description sections.
