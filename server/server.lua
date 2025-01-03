@@ -21,7 +21,6 @@ end
 -- create a command that executes the randomName function
 RegisterCommand('name', function(source, args, rawCommand)
     -- if the player has a name in the players table in the database, then return a message saying they already have a name. If they do not have a name, then generate a random name for them.
-    if Config.Command then
         exports.oxmysql:execute('SELECT * FROM players WHERE identifier = @identifier', {
             ['@identifier'] = GetPlayerIdentifiers(source)[1],
             ['@firstname'] = Config.FirstNames[math.random(1, #Config.FirstNames)],
@@ -37,7 +36,6 @@ RegisterCommand('name', function(source, args, rawCommand)
                 TriggerClientEvent('names:notify:NameDisplay', source, firstName, lastName)
             end
         end)
-    end
 end, false)
 
 
